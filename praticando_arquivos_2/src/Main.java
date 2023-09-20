@@ -27,7 +27,7 @@ public class Main {
                     .toList();
             if (dataFiltered.isEmpty()) System.out.println(time + " nunca foi rebaixado nos pontos corridos.");
             else {
-                System.out.println("Campanha(s) no(s) rebaixamento(s):");
+                System.out.println("Campanha no(s) rebaixamento(s):");
                 dataFiltered.forEach(infos -> {
                     for (String info : infos) {
                         System.out.print(info + " | ");
